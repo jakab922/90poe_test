@@ -25,3 +25,5 @@ I wanted to create a helm chart with the psql db and the server as a deployment 
 How to run this? 
 
 I have created a file called env_file on the top level of the folder structure. Open 2 terminals and source the env_file. Compile the client and the server and run first the server in one terminal and a client in an another one. Also I'm assuming you have access to a running psql database with the setting defined in the env_file. If not please install psql and modify the env_file accordingly.
+
+.
