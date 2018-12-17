@@ -1,0 +1,9 @@
+FROM golang:1.11-stretch
+
+COPY . .
+
+WORKDIR src/github.com/jakab922/phone_storage/client
+
+RUN go build && go install
+
+CMD ["client"]

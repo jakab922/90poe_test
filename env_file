@@ -1,0 +1,11 @@
+
+# for the server
+export DB_ADDRESS="127.0.0.1:5432"
+export DB_USER="dani"
+export DB_PASSWORD=333333
+export DB_SCHEMA=postgres
+export SERVER_PORT="8080"
+
+# for the client
+SERVER_ADDRESS="127.0.0.1:${SERVER_PORT}"
+FILE_PATH="`pwd`/docs/golang/data/data.csv"
